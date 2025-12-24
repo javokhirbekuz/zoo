@@ -13,4 +13,8 @@ export class DogService {
   bark(): string {
     return 'Woof! Woof!';
   }
+
+  modifyDog(body: any): string {
+    return 'Dog modified!';
+  }
 }
